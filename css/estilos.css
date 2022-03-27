@@ -85,6 +85,11 @@ nav ul li a:hover{
     background: white;
 }
 
+
+
+
+
+
 /*COVER*/
 .contenedor__todo{
     width: 100%;
@@ -196,9 +201,9 @@ nav ul li a:hover{
     margin: 20px;
     position: relative;
     font-family: 'Poppins', sans-serif;
-    transition: all 300ms ease;
     padding-bottom: 400px;
     border-radius: 20px;
+    transition: all 300ms ease;
 }
 
 .card:hover .card__info{
@@ -236,7 +241,6 @@ nav ul li a:hover{
     padding: 20px;
     margin-top: -220px;
     transition: all 300ms cubic-bezier(0.5,0,0,1);
-    border-radius: 20px;
 }
 
 .card__info p{
@@ -317,6 +321,109 @@ nav ul li a:hover{
 .c3:hover .icon i{
     color: #fff;
 }
+
+
+
+
+
+
+/*Contacto*/
+
+.form{
+    font-family: 'Poppins', sans-serif;
+    width: 90%;
+    max-width: 400px;
+    background-color: rgb(252, 252, 252);
+    margin: auto;
+    padding: 3.5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+    text-align: center;
+}
+
+.form__title{
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #2591f0;
+}
+
+.form_parrafo{
+    font-weight: 400;
+}
+
+.form_link{
+    font-weight: 400;
+    color:#000;
+    text-decoration: underline;
+}
+
+.form_container{
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+}
+
+.form_group{
+    position: relative;
+    --color: #5757577e;
+}
+
+.form_input{
+    width: 100%;
+    background: none;
+    color: #706c6c;
+    font-size: 1rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--color);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.form_input:focus + .form_label,
+.form_input:not(:placeholder-shown) + .form_label{
+    transform: translateY(-12px) scale(.7);
+    transform-origin: top left;
+    color: #359EF9;
+}
+
+
+.form_label{
+    position: absolute;
+    color: var(--color);
+    cursor: pointer;
+    top: 0px;
+    left: 5px;
+    transition: transform 600ms ease;
+}
+
+.form_button{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 20px;
+    background: #359EF9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 1px 5px 10px rgb(0 0 0 / 30%);
+    transition: all 400ms ease;
+}
+
+.form_button:hover{
+    box-shadow: 1px 5px 10px rgb(0 0 0 / 35%);
+}
+
+
+    
+
+
+
+
+
+
+
 
 
 
